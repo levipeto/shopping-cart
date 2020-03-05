@@ -1,5 +1,5 @@
 {
-    "name": "treestoneit/shopping-cart",
+    "name": "levipeto/shopping-cart",
     "description": "An easy-to-use shopping cart for Laravel 6.",
     "keywords": [
         "treestoneit",
@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.2.5",
         "ext-json": "*",
         "illuminate/support": "^7",
         "illuminate/contracts": "^7",
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Treestoneit\\ShoppingCart\\": "src"
+            "levipeto\\ShoppingCart\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Treestoneit\\ShoppingCart\\Tests\\": "tests"
+            "levipeto\\ShoppingCart\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Treestoneit\\ShoppingCart\\CartServiceProvider"
+                "levipeto\\ShoppingCart\\CartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Treestoneit\\ShoppingCart\\Facades\\Cart"
+                "Cart": "levipeto\\ShoppingCart\\Facades\\Cart"
             }
         }
     }
